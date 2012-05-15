@@ -1,0 +1,13 @@
+MANIFEST
+Makefile.PL
+lib/LViewer.pm 
+lviewer.pl
+t/LViewerTestCase.t
+t/config.xml
+t/test_projects/chess/Class.java
+t/test_projects/chess/Piece.cpp
+t/test_projects/pacman_frontend/Class.h
+t/test_projects/pacman_frontend/Class.java
+t/test_projects/project2/module.pl
+t/test_projects/project2/test/module2.pl
+t/test_projects/project2/test2/module3.pl
