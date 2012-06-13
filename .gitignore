@@ -1,2 +1,6 @@
 blib
+*.yml
+*.vim
+.directory
+Makefile
 pm_to_blib
