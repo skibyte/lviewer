@@ -75,21 +75,29 @@ my $basedir = trim($config->{basedir});
 for (keys(  %{$config->{ project }})  ) 
 {
     my %language_hash = (
-        'html'        => 'HTML', 
+        'abap'         => 'ABAP',
+        'actionscript'         => 'ActionScript',
+        'bash'        => 'Bourne Again Shell',
+        'sh'        => 'Bourne Shell',
+        'c'           => 'C', 
+        'csh'           => 'C Shell', 
         'c++'         => 'C++', 
         'xml'         => 'XML', 
-        'c'           => 'C', 
         'java'        => 'Java', 
         'make'        => 'make',
         'javascript'  => 'Javascript',
         'perl'        => 'Perl',
+        'python'        => 'Python',
         'jsp'         => 'JSP',
         'yacc'        => 'yacc',
         'lex'         => 'lex',
         'idl'         => 'IDL',
         'batch'       => 'DOS Batch',
-        'bash'        => 'Bourne Shell',
-        'css'         => 'CSS'
+        'css'         => 'CSS',
+        'html'        => 'HTML', 
+        'cmake'         => 'CMake',
+        'vim'         => 'vim script',
+        'yaml'         => 'YAML'
         );
 
     my $name = $_;
